@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movies- Horror hits</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/index.css">
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+<body class="bg-dark">
+
+
+<nav class="navbar navbar-expand-sm fixed-top bg-light">
+	<div class="container-fluid">
+
+		<a class="navbar-brand" href="">
+			<img src="image/logotxt.png" width="50%" class="logo">
+			<!-- <img src="image/logoo.png" width="10%" class="log lo"> -->
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#pn">
+			<i class="fa fa-bars" aria-hidden="true" style="color:#d72626; font-size:25px;"></i>
+		</button>
+
+		<div class="collapse navbar-collapse navbar_content" id="pn">
+			<ul class="navbar-nav">
+				<li class="nav-item m"><a href="index.html" class="nav-link navtext">HOME</a></li>
+				<li class="nav-item m"><a href="about.html" class="nav-link navtext">ABOUT</a></li>
+				<li class="nav-item m"><a href="" class="nav-link navtext"><i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</a></li>
+				<li class="nav-item">
+					<button type="button" class="btn buttonh bg-light"  data-bs-toggle="modal" data-bs-target="#bh">SIGN IN</button></a>
+				</li>
+				<!-- <li class="nav-item m"><a href="#" class="nav-link text-dark"></a></li> -->
+			</ul>
+		</div>
+	</div><!--container fluid end-->
+</nav>
+<!--------------------------------------------navbar end------------------------------------------------->
+
+<!---------popup start---------->
+<div class="modal fade" id="bh">
+	<div class="modal-dialog modal-lg modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+			       <h5 class="modal-title poptxt">Welcome to the TopList <i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"></i> :</h5><br><br>
+
+				     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+
+				<div class="modal-body">
+				<form>
+					<div class="mb-3">
+						<label>Username</label>
+						<input type="text" placeholder=" Username" name="" class="form-control"> 
+					</div>
+					<div class="mb-3">
+						<label>Email Id</label>
+						<input type="text" placeholder=" Write a valid mail id" name="" class="form-control"> 
+					</div>
+					<div class="mb-3">
+						<label>Password</label>
+						<input type="password"name="" class="form-control">
+					</div>
+					<br>
+
+					<input type="submit" name="" value="SIGN IN" class="btn btnpop">&ensp; <input type="submit" name="" value="SIGN UP" class="btn btnpop">         
+				</form>
+			</div>      
+		</div>
+	</div>
+</div>
+					<!-------------popup-end--------------->
+
+
+
+
+<!---------------------------------------------------search bar------------------------------------------------>
+<div class="container-fluid ms sbg" style="background:#c62929;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 sbg">
+				<form>
+					<div class="mb-3">
+						<input type="text" placeholder="&ensp;Movies, Tvseries, Anime & more" class=" form-control search">
+						<a href="">
+					        <i class="fa fa-search searchicon"></i>
+					    </a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div><!--container end-->
+</div><!--container fluid end-->
+<br>
+<!--------------------------------------------------search bar end-------------------------------------->
+
+
+<!-------------------------------------------------body----------------------------------------------->
+<!---------------------------------side section portion------------------------------------------------->
+<!--------------------------------main heading--------------------------------------------------->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 rbg">
+			<center><h3 class="htextt htext2m2">A Life Without Love Is No Life At All !</h3></center>
+		</div>
+	</div><!--row end-->
+	<br><br>
+		<!----------------------------main heading end-------------------------------------------->
+
+	<div class="row">
+		<!-----------------------------side section start------------------------------------------>
+		<div class="col-md-3">
+			<div class="secdiv1">
+				<div class="row"><!--sec heading-->
+					<div class="col-md-12">
+						<div style="margin: 4px; height: 48px; border: 2px dashed #c62929;" class=" bg-dark">
+							<p class="sech">Choose Your Genre</p>
+						</div>
+					</div>
+				</div><!--row end-->
+				<ul>
+					<li><a href="chill_mov.html" class="sl">Chill mood hits</a></li>
+					<li><a href="scifi_mov.html" class="sl">Action/Scifi hits</a></li>
+					<li><a href="rom_mov.html" class="sl">Romantic hits</a></li>
+					<li><a href="horror_mov.html" class="sl">Horror hits</a></li>
+					<li><a href="comedy_mov.html" class="sl">Comedy hits</a></li>
+				</ul>
+
+				<div class="row other"><!--sec heading dekstop-->
+					<br><br><br>
+					<div class="col-md-12">
+						<div style="margin: 4px; height: 48px; border: 2px dashed #c62929;" class=" bg-dark">
+							<p class="sech">Other Sections</p>
+						</div>
+					</div>
+				</div><!--row end-->
+				<ul class="other">
+					<li><a href="recents.html" class="sl">Recents</a></li>
+					<li><a href="tvseries.html" class="sl">TV Series</a></li>
+					<li><a href="animate_mov.html" class="sl">Animated Hits</a></li>
+					<li><a href="anime.html" class="sl">Anime</a></li>
+					<li><a href="index.html" class="sl">Home</a></li>
+				</ul>
+
+				<!-- <div class="row otherm"> --><!--sec heading mob-->
+					<!-- <div class="col-md-12">
+						<div class="collapse dropdown" data-bs-target="#mydropdown"style="margin: 4px;">
+							<a class="dropdown-toggle sech" data-bs-toggle="dropdown" id="mydropdown" href="#">Other Sections</a>
+							<ul>
+								<li><a href="recents.html">Recents</a></li>
+								<li><a href="recents.html">TV Series</a></li>
+								<li><a href="recents.html">Anime</a></li>
+								<li><a href="recents.html">Games</a></li>
+						</div>
+					</div>
+				</div> -->
+
+				<div class="row side"><!---side img dekstop-->
+					<div class="col-md-12">
+						<div style="margin: 1px;">
+							<img src="image/romi.png" alt="romi" class="ss_img4">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-----------------------------side section end------------------------------------------>
+
+		<div class="col-md-9">
+
+			<div class="row"><!--sub heading-->
+				<div class="col-md-12 mwm">
+				<h3 class="htext">Romantic Hits</h3>
+				<hr style="color: white;">
+				</div>
+			</div><!--sub-heading row end-->
+
+			<!-----------------images---------------------->
+			<div class="row">
+			<div class="col-md-4">
+				<div>
+					<img src="image/rm1.jpg" alt="rm1" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.7/10<br>Kissing Booth<br></font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div>
+					<img src="image/rm2.jpg" alt="rm2" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.9/10<br>To All The Boys Always & Forever<br></font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div>
+					<img src="image/rm4.jpg" alt="rm4" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.2/10<br>Barfi</font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+			</div><!--row end-->
+			<br><br>
+
+			<div class="row">
+				<div class="col-md-4">
+					<div>
+						<img src="image/rm5.jpg" alt="rm5"  class="w-100 asimg">
+						<div class="subm">
+							<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.0/10<br>The NoteBook</font></i>
+							<br>
+							<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div>
+						<img src="image/rm6.jpg" alt="rm6" class="w-100 asimg">
+						<div class="subm">
+							<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.9/10<br>Kuch Kuch Hota Hai<br></font></i>
+							<br>
+							<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+						</div>
+					</div>
+				</div>	
+				<div class="col-md-4">
+					<div>
+						<img src="image/rm7.jpg" alt="rm7" class="w-100 asimg">
+						<div class="subm">
+							<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.1/10<br>All The Bright Places</font></i>
+							<br>
+							<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+						</div>
+					</div>
+				</div>
+			</div><!--row end-->
+		</div><!-- col end -->
+		<br>
+	</div><!-- main row end-->
+	<br><br>
+</div><!--container fluid end-->
+<!---------------------------------side section portion end----------------------------------------------->
+
+<!------------------------------------below side sec--------------------------------------------->
+<div class="container-fluid">
+
+	<!---------------------row 1----------------------->
+		<div class="row">
+			<div class="col-md-3">
+				<div>
+					<img src="image/rom1.jpg" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.1/10<br>Five Feet Apart</font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div>
+					<img src="image/rom2.png" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.8/10<br>Fault In Our Stars</font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div>
+					<img src="image/rom3.jpg"  class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.0/10<br>Veer Zara</font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div>
+					<img src="image/rom4.jpg" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.3/10<br>A Walk To Remember</font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+		</div><!-------row1 end----------->
+		<br>
+
+		<!--------row 2 start----------->
+		<div class="row">
+			<div class="col-md-3">
+				<div>
+					<img src="image/rm8.jpg" alt="rm8" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.0/10<br>Vivaah<br></font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div>
+					<img src="image/rm9.png" alt="rm9" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.4/10<br>Call Me By Your Name</font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div>
+					<img src="image/rm10.png" alt="rm10" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.4/10<br>Alex Strange Love</font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div>
+					<img src="image/rm11.jpg" alt='rm11' class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.1/10<br>Dil Bechara</font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+
+		</div><!-------row2 end----------->
+		<br>
+
+		<!------row 3 start------------>
+		<div class="row">
+			<div class="col-md-3">
+				<div>
+					<img src="image/rm12.png" alt="rm12"  class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.5/10<br>Eternal Sunshine Of The Spotless Mind</font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div>
+					<img src="image/rm13.jpg" alt="rm13" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">7.9/10<br>Holidate<br></font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div>
+					<img src="image/rm14.jpg" alt="rm14" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.2/10<br>The Perfect Date<br></font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div>
+					<img src="image/rm15.png" alt="rm15" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.6/10<br>La La Land<br></font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+		</div><!---------row 3 end------------->
+		<br>
+
+		<!------------row 4 start-------->
+		<div class="row">
+			<div class="col-md-3">
+				<div>
+					<img src="image/rm16.jpg" alt="rm16"  class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.0/10<br>A Star Is Born</font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div>
+					<img src="image/rm18.jpeg" alt="rm18" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.3/10<br>The Half Of It<br></font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div>
+					<img src="image/rm17.jpg" alt="rm17" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">7.7/10<br>Crazy Stupid Love<br></font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div>
+					<img src="image/rm20.png" alt="rm20" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.2/10<br>Candy Jar<br></font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+		</div><!---------row 4 end------------->
+		<br>
+
+
+
+		<!------------row 5 start-------->
+		<div class="row">
+			<div class="col-md-3">
+				<div>
+					<img src="image/rm19.jpg" alt="rm19"  class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">7.8/10<br>The Last Summer</font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div>
+					<img src="image/m21.jpeg" alt="m21" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.1/10<br>The Love Birds<br></font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div>
+					<img src="image/rom5.jpg" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.4/10<br>Kal Ho Na Ho</font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div>
+					<img src="image/rom6.jpg" class="w-100 asimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.3/10<br>Titanic</font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+		</div><!---------row 5 end------------->
+		<br><br><br><br>
+		
+
+</div><!--container fluid end-->
+<!--------------------------------------------------below side sec end------------------------------------>
+
+
+<!--------------------------------------------footer start--------------------------------------------------->
+<div class="container-fluid" style="background:#c62929;">
+	<div class="container"><br><br><br>
+		<div class="row">
+
+			<!-----------------help-about-mail---------------->
+			<div class="col-md-5 foo">
+				<ul class="fl" type="none">
+					<li><a href="help.html" class="flist">Help</a></li>
+					<li><a href="about.html" class="flist">About</a></li>
+					<li><a href=""class="flist">Drop us a mail at  <i class="fa fa-envelope" style="color:white; font-size: 18px;"></i><font style="color:#f5c518;">&ensp;<u>toplist_rec@gmail.com</u></font></a></li>
+					<li class="flist">Designed by: Shiva Dantare<br>shivadantare@gmail.com</a></li>
+					<br><br>
+					<li class="flist mflist">Thankyou for Visiting us! <i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"></i></a></li>
+				</ul>
+			</div>
+
+			<!---------youtube-subscribe-------------->
+			<div class="col-md-7">
+				<h4 class="text-white">Subscribe us on Youtube <i class="fa fa-youtube-play" aria-hidden="true" style="color:white; font-size: 18px;"></i><font style="color:#f5c518;"> TheToplist</font></h3>
+				<h6 class="flist">We aim to provide our users the best recommendations possible!</h6>
+				<br><br>
+
+				<!------------------------feedback---------------------->
+				<h5 class="flist">Click here to write us a feedback:<br>
+
+					<!---------pop up button--------->
+					<button type="button" class="btn buttonf" style="background: #c69529;" data-bs-toggle="modal" data-bs-target="#aa"> FEEDBACK</button>
+
+					<!---------popup start---------->
+					<div class="modal fade" id="aa">
+					  	<div class="modal-dialog modal-lg modal-dialog-centered">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title poptxt" id="exampleModalLabel">Your feedback hepls us to improve our recommendations.<br>Write your feedback here <i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"></i> :</h5><br><br>
+
+					        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					        
+					      </div>
+					      <div class="modal-body">
+					        <form>
+						        <div class="mb-3">
+						          <label>hello!</label>
+						          <textarea type="text" name=""class="form-control"></textarea> 
+						        </div>
+
+						        <input type="submit" name="" value="SUBMIT" class="btn btnpop">         
+					      	</form>	      
+					    </div>
+					  </div>
+					</div>
+					<!-------------popup-end ------------>
+				<br>
+			</div><!--col end-->
+
+			<div class="col-md-4">
+			</div>
+		</div><!--row end-->
+	</div><!--container closed-->
+	<br><br>
+</div><!--container fluid-->
+<!-------------------------------------------------footer end----------------------------------------->
+
+
+
+</body>
+</html>

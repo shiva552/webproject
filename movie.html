@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TopList- Movies</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/index.css">
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+	
+</head>
+<body class="bg-dark">
+
+	<!------------------------------------------------navbar start----------------------------------------------->
+<nav class="navbar navbar-expand-sm fixed-top bg-light">
+	<div class="container-fluid">
+
+		<a class="navbar-brand" href="">
+			<img src="image/logotxt.png" width="50%" class="logo">
+			<!-- <img src="image/logoo.png" width="10%" class="log lo"> -->
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#pn">
+			<i class="fa fa-bars" aria-hidden="true" style="color:#d72626; font-size:25px;"></i>
+		</button>
+
+		<div class="collapse navbar-collapse navbar_content" id="pn">
+			<ul class="navbar-nav">
+				<li class="nav-item m"><a href="index.html" class="nav-link navtext">HOME</a></li>
+				<li class="nav-item m"><a href="about.html" class="nav-link navtext">ABOUT</a></li>
+				<li class="nav-item m"><a href="" class="nav-link navtext"><i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</a></li>
+				<li class="nav-item">
+					<button type="button" class="btn buttonh bg-light"  data-bs-toggle="modal" data-bs-target="#bh">SIGN IN</button></a>
+				</li>
+				<!-- <li class="nav-item m"><a href="#" class="nav-link text-dark"></a></li> -->
+			</ul>
+		</div>
+	</div><!--container fluid end-->
+</nav>
+<!--------------------------------------------navbar end------------------------------------------------->
+
+<!---------popup start---------->
+<div class="modal fade" id="bh">
+	<div class="modal-dialog modal-lg modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+			       <h5 class="modal-title poptxt">Welcome to the TopList <i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"></i> :</h5><br><br>
+
+				     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      	</div>
+
+				<div class="modal-body">
+				<form>
+					<div class="mb-3">
+						<label>Username</label>
+						<input type="text" placeholder=" Username" name="" class="form-control"> 
+					</div>
+					<div class="mb-3">
+						<label>Email Id</label>
+						<input type="text" placeholder=" Write a valid mail id" name="" class="form-control"> 
+					</div>
+					<div class="mb-3">
+						<label>Password</label>
+						<input type="password"name="" class="form-control">
+					</div>
+					<br>
+
+					<input type="submit" name="" value="SIGN IN" class="btn btnpop">&ensp; <input type="submit" name="" value="SIGN UP" class="btn btnpop">         
+				</form>
+			</div>      
+		</div>
+	</div>
+</div>
+					<!-------------popup-end--------------->
+
+
+
+<!-----------------------------------------------search bar------------------------------------------------>
+<div class="container-fluid ms sbg" style="background:#c62929;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 sbg">
+				<form>
+					<div class="mb-3">
+						<input type="text" placeholder="&ensp;Movies, Tvseries, Anime & more" class=" form-control search">
+						<a href="">
+					        <i class="fa fa-search searchicon"></i>
+					    </a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div><!--container end-->
+</div><!--container fluid end-->
+<br>
+<!-------------------------------------------search bar end---------------------------------------------->
+
+
+<!--------------------------------------body---------------------------------------------------------->
+<!---------------------------------side section portion---------------------------------------------------------->
+<!--------------------------------main heading--------------------------------------------------->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 rbg">
+			<center><h3 class="htextt htext2m2">KEEP YOURSELF ENTERTAINED</h3></center>
+		</div>
+	</div><!--row end-->
+	<br><br>
+		<!----------------------------main heading end-------------------------------------------->
+
+	<div class="row">
+		<!-----------------------------side section start------------------------------------------>
+		<div class="col-md-3">
+			<div class="secdiv">
+				<div class="row"><!--sec heading-->
+					<div class="col-md-12">
+						<div style="margin: 4px; height: 48px; border: 2px dashed #c62929;" class=" bg-dark">
+							<p class="sech">Choose Your Genre</p>
+						</div>
+					</div>
+				</div><!--row end-->
+				<ul>
+					<li><a href="chill_mov.html" class="sl">Chill mood hits</a></li>
+					<li><a href="scifi_mov.html" class="sl">Sci-fi/Action hits</a></li>
+					<li><a href="rom_mov.html" class="sl">Romantic hits</a></li>
+					<li><a href="horror_mov.html" class="sl">Horror hits</a></li>
+					<li><a href="comedy_mov.html" class="sl">Comedy hits</a></li>
+				</ul>
+
+				<div class="row other"><!--sec heading dekstop-->
+					<br><br><br>
+					<div class="col-md-12">
+						<div style="margin: 4px; height: 48px; border: 2px dashed #c62929;" class=" bg-dark">
+							<p class="sech">Other Sections</p>
+						</div>
+					</div>
+				</div><!--row end-->
+				<ul class="other">
+					<li><a href="recents.html" class="sl">Recents</a></li>
+					<li><a href="tvseries.html" class="sl">TV Series</a></li>
+					<li><a href="animate_mov.html" class="sl">Animated Hits</a></li>
+					<li><a href="anime.html" class="sl">Anime</a></li>
+					<li><a href="index.html" class="sl">Home</a></li>
+				</ul><br>
+
+				<!-- <div class="row otherm"> --><!--sec heading mob-->
+					<!-- <div class="col-md-12">
+						<div class="collapse dropdown" data-bs-target="#mydropdown"style="margin: 4px;">
+							<a class="dropdown-toggle sech" data-bs-toggle="dropdown" id="mydropdown" href="#">Other Sections</a>
+							<ul>
+								<li><a href="recents.html">Recents</a></li>
+								<li><a href="recents.html">TV Series</a></li>
+								<li><a href="recents.html">Anime</a></li>
+								<li><a href="recents.html">Games</a></li>
+						</div>
+					</div>
+				</div> -->
+
+				<div class="row side"><!---side img dekstop-->
+					<div class="col-md-12">
+						<div style="margin: 4px;">
+							<img src="image/section.png" alt="secimg" class="ss_img">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-----------------------------side section end------------------------------------------>
+
+		<div class="col-md-9">
+
+			<div class="row"><!--sub heading-->
+				<div class="col-md-12 mwm">
+				<h3 class="htext">Must Watch Movies</h3>
+				<hr style="color: white;">
+				</div>
+			</div><!--sub-heading row end-->
+
+			<!-----------------images---------------------->
+			<div class="row">
+			<div class="col-md-3">
+				<div>
+					<img src="image/M1.jpg" alt="M1" class="w-100 moimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.0/10<br>Mission Impossible Fallout</font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div>
+					<img src="image/M2.jpg" class="w-100 moimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.9/10<br>Andhadhun<br></font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div>
+					<img src="image/r2.jpg" alt="r2" class="w-100 moimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">7.8/10<br>Columnist<br></font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div>
+					<img src="image/M3.jpg" alt="M3" class="w-100 moimg">
+					<div class="subm">
+						<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.2/10<br>Lord Of The Rings<br>(fellowship of the ring)</font></i>
+						<br>
+						<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+					</div>
+				</div>
+			</div>
+			</div><!--row end-->
+			<br><br>
+
+			<div class="row">
+				<div class="col-md-3">
+					<div>
+						<img src="image/M4.jpg" alt="M4"  class="w-100 moimg">
+						<div class="subm">
+							<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.8/10<br>Inception<br></font></i>
+							<br>
+							<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div>
+						<img src="image/M5.webp" alt="M5" class="w-100 moimg">
+						<div class="subm">
+							<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.4/10<br>Avengers Endgame<br></font></i>
+							<br>
+							<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div>
+						<img src="image/M6.jpg" alt="M6" class="w-100 moimg">
+						<div class="subm">
+							<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.9/10<br>Parasite<br></font></i>
+							<br>
+							<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+						</div>
+					</div>
+				</div>	
+				<div class="col-md-3">
+					<div>
+						<img src="image/M7.jpg" alt="M7" class="w-100 moimg">
+						<div class="subm">
+							<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.1/10<br>3 Idiots<br></font></i>
+							<br>
+							<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+						</div>
+					</div>
+				</div>
+			</div><!--row end-->
+		</div><!-- col end -->
+		<br>
+	</div><!-- main row end-->
+	<br><br>
+</div><!--container fluid end-->
+<!---------------------------------side section portion end---------------------------------------------------->
+
+
+<!---------------------------------------below side sec------------------------------------------------------>
+<div class="container-fluid">
+
+	<!---------------------row 1----------------------->
+	<div class="row">
+
+		<div class="col-md-2">
+			<div>
+				<img src="image/M8.png" alt="M8" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.9/10<br>Good Will Hunting<br></font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M9.png" alt="M9" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">7.6/10<br>Mean Girls<br></font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M10.jpg" alt="M10" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.9/10<br>Joker<br></font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M11.jpg" alt="M11" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.9/10<br>Harry Potter & The Cursed Child</font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M12.jpg" alt="M12" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.5/10<br>Dead Poet<br></font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M13.jpg" alt="M13" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.8/10<br>Hard Day</font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+	</div><!-----------------------row 1 end------------------------>
+	<br><br>
+
+
+	<!-----------------------row 2---------------------------------->
+	<div class="row">
+
+		<div class="col-md-2">
+			<div>
+				<img src="image/M14.jpg" alt="M14" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.9/10<br>Extreme Job<br></font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M15.jpg" alt="M15" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.5/10<br>Kahani<br></font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M16.jpg" alt="M16" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.7/10<br>Hindi Medium<br></font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M17.jpg" alt="M17" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.9/10<br>The Sixth Sense</font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M18.jpg" alt="M18" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.8/10<br>Gone With The Wind<br></font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M19.png" alt="M19" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.5/10<br>La La Land</font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+	</div><!---------------------------------row2 end----------------------------->
+	<br><br>
+
+	<!----------------------------------row 3--------------------------------->
+	<div class="row">
+
+		<div class="col-md-2">
+			<div>
+				<img src="image/M20.jpg" alt="M20" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.5/10<br>Now You See Me 2<br></font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M21.jpg" alt="M21" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.4/10<br>Crazy Rich Asians<br></font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M22.jpg" alt="M22" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.9/10<br>Quiet Place<br></font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M23.jpg" alt="M23" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.6/10<br>Hitman's Bodygaurd</font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M24.webp" alt="M24" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.1/10<br>Extraction<br></font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M25.jpg" alt="M25" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.2/10<br>John Wick</font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+	</div><!-----------------------------row3 end------------------------->
+	<br><br>
+
+	<!------------------------------row 4 start------------------------------->
+	<div class="row">
+
+		<div class="col-md-2">
+			<div>
+				<img src="image/M26.png" alt="M26" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.2/10<br>Love Simon<br></font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M27.jpg" alt="M27" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.0/10<br>Angels & Demons<br></font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M28.jpg" alt="M28" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.9/10<br>A Beautiful Mind<br></font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M.jpg" alt="M" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.2/10<br>Ratsasan</font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M29.jpg" alt="M29" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">8.8/10<br>Fight Club<br></font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div>
+				<img src="image/M36.png" alt="M36" class="w-100 moimg">
+				<div class="subm">
+					<i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"><font class="subtext">9.3/10<br>Ladybird</font></i>
+					<br>
+					<button class="button">ADD TO <i class="fa fa-gratipay" aria-hidden="true" style="color:#eb1919; font-size: 18px;"></i>&ensp;MY TOPLIST</button><!--button-->
+				</div>
+			</div>
+		</div>
+	</div><!-----------------------------row4 end------------------------->
+	<br>
+</div><!--container fluid end-->
+<br><br><br><br>
+<!---------------------------------------below side sec end---------------------------------------------------->
+
+<!--------------------------------------------footer start--------------------------------------------------->
+<div class="container-fluid" style="background:#c62929;">
+	<div class="container"><br><br><br>
+		<div class="row">
+
+			<!-----------------help-about-mail---------------->
+			<div class="col-md-5 foo">
+				<ul class="fl" type="none">
+					<li><a href="help.html" class="flist">Help</a></li>
+					<li><a href="about.html" class="flist">About</a></li>
+					<li><a href=""class="flist">Drop us a mail at  <i class="fa fa-envelope" style="color:white; font-size: 18px;"></i><font style="color:#f5c518;">&ensp;<u>toplist_rec@gmail.com</u></font></a></li>
+					<li class="flist">Designed by: Shiva Dantare<br>shivadantare@gmail.com</a></li>
+					<br><br>
+					<li class="flist mflist">Thankyou for Visiting us! <i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"></i></a></li>
+				</ul>
+			</div>
+
+			<!---------youtube-subscribe-------------->
+			<div class="col-md-7">
+				<h4 class="text-white">Subscribe us on Youtube <i class="fa fa-youtube-play" aria-hidden="true" style="color:white; font-size: 18px;"></i><font style="color:#f5c518;"> TheToplist</font></h3>
+				<h6 class="flist">We aim to provide our users the best recommendations possible!</h6>
+				<br><br>
+
+				<!------------------------feedback---------------------->
+				<h5 class="flist">Click here to write us a feedback:<br>
+
+					<!---------pop up button--------->
+					<button type="button" class="btn buttonf" style="background: #c69529;" data-bs-toggle="modal" data-bs-target="#aa"> FEEDBACK</button>
+
+					<!---------popup start---------->
+					<div class="modal fade" id="aa">
+					  	<div class="modal-dialog modal-lg modal-dialog-centered">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title poptxt" id="exampleModalLabel">Your feedback hepls us to improve our recommendations.<br>Write your feedback here <i class="fa fa-smile-o" aria-hidden="true" style="color:#f5c518; font-size: 18px;"></i> :</h5><br><br>
+
+					        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					        
+					      </div>
+					      <div class="modal-body">
+					        <form>
+						        <div class="mb-3">
+						          <label>hello!</label>
+						          <textarea type="text" name=""class="form-control"></textarea> 
+						        </div>
+
+						        <input type="submit" name="" value="SUBMIT" class="btn btnpop">         
+					      	</form>	      
+					    </div>
+					  </div>
+					</div>
+					<!-------------popup-end ------------>
+				<br>
+			</div><!--col end-->
+
+			<div class="col-md-4">
+			</div>
+		</div><!--row end-->
+	</div><!--container closed-->
+	<br><br>
+</div><!--container fluid-->
+<!-------------------------------------------------footer end--------------------------------------------------->
+
+
+
+		
+
+</body>
+</html>
